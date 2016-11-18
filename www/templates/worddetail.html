@@ -1,0 +1,33 @@
+<ion-modal-view>
+  <ion-header-bar>
+    <h1 class="title">Translator</h1>
+    <div class="buttons">
+      <button class="button button-dark" ng-click="closeModal()"><i class="icon ion-close"></i></button>
+    </div>
+  </ion-header-bar>
+  <ion-content>
+  <div class="list">
+  	<div class="item item-icon-right">
+  	<i class="icon ion-play"></i>
+  		<h1>{{selectedWord.word_eng}}</h1>
+  	</div>
+  	<div class="item item-icon-right">
+  	<i class="icon ion-play"></i>
+  		<h2>Mandarin:{{selectedWord.word_ch}}</h2>
+  	</div>
+  	<div class="item item-icon-right">
+  	<i class="icon ion-play"></i>
+  		 <h2>Hokkien:{{selectedWord.word_hokkien}}</h2>
+  	</div>
+  	<div class="item item-icon-right">
+  	<i class="icon ion-play"></i>
+  		<h2>Malay:{{selectedWord.word_malay}}</h2>
+  	</div>
+  
+  
+ 
+  
+</div>
+    
+  </ion-content>
+</ion-modal-view>
